@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { FileText, Briefcase, Handshake, Landmark, Rocket, Car, Shield, Building } from 'lucide-react';
+import { FileText, Briefcase, FolderCheck, Landmark, Rocket, Car, Shield, Building } from 'lucide-react';
 
 const Services = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -14,7 +14,7 @@ const Services = () => {
   const services = [
     { id: 'contratos', icon: FileText, title: 'Redacción de contratos', description: 'Elaboramos un contrato sólido y al resguardo de tus derechos.', whatsappText: 'Hola! Necesito consultar sobre redacción de contratos.' },
     { id: 'laboral', icon: Briefcase, title: 'Derecho Laboral', description: 'Te asesoramos y representamos en cualquier etapa de tu vida laboral.', whatsappText: 'Hola! Necesito consultar sobre derecho laboral.' },
-    { id: 'mediacion', icon: Handshake, title: 'Mediación', description: 'Facilitamos la resolución de conflictos de forma amistosa y eficiente, evitando el juicio.', whatsappText: 'Hola! Necesito consultar sobre mediación.' },
+    { id: 'sociedades', icon: FolderCheck, title: 'Constitución de sociedades', description: 'Gestionamos la constitución y desarrollo de tu sociedad, asociación, cooperativa o mutual. Te acompañamos con respaldo legal sólido desde el inicio hasta el día a día de tu proyecto.', whatsappText: 'Hola! Necesito consultar sobre constitución de sociedades.' },
     { id: 'tributario', icon: Landmark, title: 'Derecho Financiero y Tributario', description: 'Te representamos ante ARCA (ex AFIP) y otros organismos de recaudación fiscal.', whatsappText: 'Hola! Necesito consultar sobre derecho financiero y tributario.' },
     { id: 'emprendimiento', icon: Rocket, title: 'Asistencia legal para tu emprendimiento', description: 'Apoyo legal integral para emprendedores en todas las etapas del proyecto.', whatsappText: 'Hola! Necesito consultar sobre asistencia legal para emprendedores.' },
     { id: 'transito', icon: Car, title: 'Accidentes de tránsito', description: 'Defendemos tus derechos tras un accidente, al resguardo de tus intereses.', whatsappText: 'Hola! Necesito consultar sobre accidentes de tránsito.' },
