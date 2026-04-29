@@ -39,7 +39,7 @@ const EbooksBanner = () => {
             <div className="space-y-6">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-foreground/10 backdrop-blur-sm border border-primary-foreground/20 text-xs font-body font-medium tracking-widest uppercase">
                 <Sparkles className="w-3.5 h-3.5" />
-                Acceso exclusivo · Gratis
+                ACCESO EXCLUSIVO
               </span>
 
               <h2 className="font-display text-4xl sm:text-5xl lg:text-6xl leading-[1.1] tracking-tight">
@@ -49,7 +49,7 @@ const EbooksBanner = () => {
               </h2>
 
               <p className="font-body text-base sm:text-lg text-primary-foreground/70 max-w-2xl leading-relaxed">
-                Accede a nuestra biblioteca de <strong className="text-primary-foreground font-semibold">Ebooks de Derecho</strong> escritos por especialistas. Guías prácticas, claras y descargables para entender lo que la ley dice sobre tu caso, tu trabajo y tu futuro.
+                Accede a nuestra biblioteca de <strong className="text-primary-foreground font-semibold">Ebooks de Derecho.</strong>&nbsp;Guías prácticas, claras y descargables para entender lo que la ley dice sobre tu caso, tu trabajo y tu futuro.
               </p>
 
               <div className="flex flex-wrap items-center gap-6 pt-2">
