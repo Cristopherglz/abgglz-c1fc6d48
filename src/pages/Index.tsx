@@ -2,6 +2,7 @@ import Navigation from '@/components/Navigation';
 import Hero from '@/sections/Hero';
 import About from '@/sections/About';
 import Services from '@/sections/Services';
+import EbooksBanner from '@/sections/EbooksBanner';
 import Contact from '@/sections/Contact';
 import Footer from '@/sections/Footer';
 
@@ -13,6 +14,7 @@ const Index = () => {
         <Hero />
         <About />
         <Services />
+        <EbooksBanner />
         <Contact />
       </main>
       <Footer />
